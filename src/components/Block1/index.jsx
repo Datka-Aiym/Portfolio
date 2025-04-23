@@ -8,7 +8,7 @@ export default function HeroSection() {
       {/* Фон с градиентом */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#11071F] to-[#11071F]"></div>
 
-      <div className="relative flex flex-col lg:flex-row items-center lg:items-start w-[90%] max-w-[1260px] ml-[150px]">
+      <div className="relative flex flex-col lg:flex-row items-center lg:items-start w-[90%] max-w-[1260px] ">
         {/* Левая часть - изображение */}
         <div className="relative w-[250px] h-[250px] md:w-[300px] md:h-[300px] flex-shrink-0">
           <img src={fasw} alt="Avatar" className="w-full h-full object-cover relative z-10" />
@@ -17,7 +17,7 @@ export default function HeroSection() {
         {/* Правая часть - текст */}
         <div className="text-white mt-6 lg:mt-0 lg:ml-10">
           <p className="text-lg">
-          Привет, <span className="text-[#7127BA]">Я Кайыпова Даткайым.</span>
+          Привет, <span className=" font-serif">Я Кайыпова Даткайым.</span>
           </p>
           <h1 className="text-3xl md:text-5xl font-bold mt-2">
             Я являюсь <br /> фронтенд-разработчиком.

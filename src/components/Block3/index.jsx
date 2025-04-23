@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 export default function Index() {
   const projects = [
-    { img: horse1, link: "https://your-project-link1.com", title: "Лошади" },
+    { img: horse1, link: "https://horse-project-nine.vercel.app/", title: "Лошади" },
     { img: macarons, link: "https://your-project-link2.com", title: "Макароны" },
     { img: home, link: "https://your-project-link3.com", title: "Домик" },
     { img: uviler, link: "https://your-project-link4.com", title: "Украшения" },

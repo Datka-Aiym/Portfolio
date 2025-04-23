@@ -3,7 +3,7 @@ import { useRoutes } from 'react-router-dom'
 import Projec from '../pages/Progect/index.jsx'
 import Skills from '../pages/Skills/index.jsx'
 import NotFound from '../widgets/NotFound/index.jsx'
-import { Layout } from '../widgets/Layout/Layuot.jsx'
+import { Layout } from '../widgets/Layout/Layout.jsx'
 import { Home } from '../pages/Home/Home'
 
 export default function Myroutes() {
